@@ -1,7 +1,7 @@
 com.mevia.prefs
 ===============
 
-# Application Preferences plugin for Phonegap #
+# applicationPreferences plugin for Phonegap #
 
 Originally by Simon MacDonald (@macdonst), ported to plugman and some other cleanup by Dan Moore (@mooreds).  Dan Moore also pulled in the iOS code, written by Tue Topholm / Sugee
 
