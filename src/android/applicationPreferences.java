@@ -1,4 +1,4 @@
-package com.simonmacdonald.prefs;
+package com.mevia.prefs;
 
 import java.util.Iterator;
 import java.util.Map;
@@ -19,7 +19,7 @@ import android.content.SharedPreferences.Editor;
 import android.preference.PreferenceManager;
 import android.util.Log;
 
-public class AppPreferences extends CordovaPlugin {
+public class applicationPreferences extends CordovaPlugin {
 
     private static final String LOG_TAG = "AppPrefs";
     private static final int NO_PROPERTY = 0;
