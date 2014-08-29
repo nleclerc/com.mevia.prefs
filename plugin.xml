@@ -2,7 +2,7 @@
 <plugin id="com.mevia.prefs" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
 	<name>applicationPreferences</name>
 	<js-module name="applicationPreferences" src="www/applicationPreferences.js">
-		<clobbers target="cordova.plugins.applicationPreferences" />
+		<clobbers target="window.applicationPreferences" />
 	</js-module>
 	<platform name="ios">
 		<config-file parent="/*" target="config.xml">

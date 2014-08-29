@@ -9,12 +9,8 @@ ApplicationPreferences.prototype.clear = function(key, successFn, errorFn) {
     exec(successFn, errorFn, 'applicationPreferences', 'clearSetting', [key]);
 };
 ApplicationPreferences.install = function () {
-  if (!window.plugins) {
-    window.plugins = {};
-  }
-
-  window.plugins.applicationPreferences = new ApplicationPreferences();
-  return window.plugins.applicationPreferences;
+  window.applicationPreferences = new ApplicationPreferences();
+  return window.applicationPreferences;
 };
 
 cordova.addConstructor(ApplicationPreferences.install);
