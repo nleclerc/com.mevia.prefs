@@ -9,9 +9,7 @@
 			<feature name="applicationPreferences">
 				<param name="ios-package" value="applicationPreferences" />
 			</feature>
-		</config-file>
-		<header-file src="src/ios/applicationPreferences.h" /> 
-		<source-file src="src/ios/applicationPreferences.m" />
+		</config-file><source-file src="src/ios/applicationPreferences.m" />
 	</platform>
 	<platform name="android">
 		<config-file parent="/*" target="res/xml/config.xml">
